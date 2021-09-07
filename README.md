@@ -1,6 +1,6 @@
 # Password Generator
 
-> Outline a brief description of your project.
+> Basic password generator.
 > Live demo [_here_](https://lilyso.github.io/password-generator/).
 
 ## Table of Contents
@@ -10,74 +10,52 @@
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
-- [Usage](#usage)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
 - [Contact](#contact)
 
 ## General Information
 
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+Basic password generator that allows the user to create a password with randomised letters, numbers and special characters, from 8 to 128 characters in length.
 
 ## Technologies Used
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- HTML5
+- CSS3
+- Javascript
 
 ## Features
 
-List the ready features here:
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Ability to generate password with uppercase letters, lowercase letters, numbers and special characters.
+- Password is randomly generated from user's selection.
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
-
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Uppercase example](assets/images/uppercase.png)
+![Character length example](assets/images/character_length.png)
+![Password generated example](assets/images/password_generated.png)
 
 ## Setup
 
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-## Usage
-
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+Download from repository.
 
 ## Project Status
 
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_.
 
 ## Room for Improvement
 
 Room for improvement:
 
-- A quicker way to select and copy the password for use
-- Styles could be improved. Currently very basic
+- A quicker way to select and copy the password for use.
+- Styles could be improved. Currently very basic.
 
 To do:
 
-- Save to clipboard button
-- Tool tip to notify user that the password has been copied to their clipboard
-- Add styles
+- Save to clipboard button.
+- Tool tip to notify user that the password has been copied to their clipboard.
+- Add styles.
 
 ## Contact
 
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@lilyso](https://github.com/lilyso).
