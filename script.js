@@ -1,3 +1,5 @@
+// All possible password output
+
 var alphabet = [
   "A",
   "B",
@@ -57,7 +59,8 @@ var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 var specialChar = ["!", "#", "$", "%", "&", "*", "+", "?", "@", "_"];
 
-// Assignment Code
+// Generate password
+
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
@@ -83,8 +86,10 @@ function generatePassword() {
   for (let i = 0; i < characters; i++) {
     password = password + allPos[Math.floor(Math.random() * allPos.length)];
   }
-  return password
+  return password;
 }
+
+// Test character length meets requirements
 
 function passLength() {
   var characters = prompt(
