@@ -1,6 +1,6 @@
 // All possible password output
 
-var alphabet = [
+var uppercase = [
   "A",
   "B",
   "C",
@@ -27,6 +27,8 @@ var alphabet = [
   "X",
   "Y",
   "Z",
+];
+var lowercase = [
   "a",
   "b",
   "c",
@@ -64,13 +66,17 @@ var specialChar = ["!", "#", "$", "%", "&", "*", "+", "?", "@", "_"];
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  var useLetters = confirm("Do you want to use letters?");
+  var useUpper = confirm("Do you want to use uppercase letters?");
+  var useLower = confirm("Do you want to use lowercase letters?");
   var useNumbers = confirm("Do you want to use numbers?");
   var useSpecial = confirm("Do you want to use special characters?");
   var password = "";
   var allPos = [];
-  if (useLetters) {
-    allPos = allPos.concat(alphabet);
+  if (useUpper) {
+    allPos = allPos.concat(uppercase);
+  }
+  if (useLower) {
+    allPos = allPos.concat(lowercase);
   }
   if (useNumbers) {
     allPos = allPos.concat(numbers);
@@ -78,7 +84,12 @@ function generatePassword() {
   if (useSpecial) {
     allPos = allPos.concat(specialChar);
   }
-  if (useLetters === false && useSpecial === false && useNumbers === false) {
+  if (
+    useUpper === false &&
+    useLower === false &&
+    useSpecial === false &&
+    useNumbers === false
+  ) {
     alert("Please choose at least one option");
     return generatePassword();
   }
