@@ -49,12 +49,14 @@ Room for improvement:
 
 - A quicker way to select and copy the password for use.
 - Styles could be improved. Currently very basic.
+- There is a chance that some characters may not be picked even though the user has picked a particular array to be included due to the random function.
 
 To do:
 
 - Save to clipboard button.
 - Tool tip to notify user that the password has been copied to their clipboard.
 - Add styles.
+- Additional checks will need to be added to ensure that at least one of the characters are included in the password.
 
 ## Contact
 
